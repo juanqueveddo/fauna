@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+}
+
+.bubble {
+    position: relative;
+    height: 72rem;
+    background: url(../img/bubble-video.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 65rem;
+    bottom: 7rem;
+    opacity: 1;
+}
+
+.color-blur-1 {
+    position: absolute;
+    height: 40rem;
+    width: 60rem;
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: conic-gradient(from -40.02deg at 57.69% 57.09%, #6953FF -317.27deg, #08FFFF 12.38deg, #6953FF 42.73deg, #08FFFF 372.38deg);
+    filter: blur(132.344px);
+    transform: matrix(-0.36, 0.93, 0.81, 0.58, 0, 0);
+    z-index: 2;
+    bottom: 0;
+    right: -30rem;
+    opacity: 0.7;
+}
